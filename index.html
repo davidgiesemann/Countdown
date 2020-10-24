@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="countdown"></div>
+
+<script src="dist/Countdown.min.js"></script>
+<script>
+    new Countdown(document.getElementById('countdown'), {
+        from: Date.now() / 1000,
+        to: (Date.now() / 1000) + (10)
+    });
+</script>
+</body>
+</html>
