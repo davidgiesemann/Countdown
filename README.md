@@ -15,9 +15,9 @@
             from: Date.now() / 1000,
             to: (Date.now() / 1000) + (10)
         });
-        
-        new Countdown(document.getElementById('countdown'), {
+    
+        new Countdown(document.getElementById('formattedCountdown'), {
             from: Date.now() / 1000,
-            to: (Date.now() / 1000) + (10)
+            to: (Date.now() / 1000) + (60 * 60 * 24)
         });
     </script>
